@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for contracts/MarshaPlus.sol</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">contracts/</a> MarshaPlus.sol
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>21/21</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>33/33</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">49×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">48×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// SPDX-License-Identifier: MIT
+pragma solidity 0.8.22;
+&nbsp;
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+&nbsp;
+contract MarshaToken is ERC20 {
+    /**
+     * 8 billion tokens in wei.
+     */
+    uint256 public constant INITIAL_SUPPLY = 8_000_000_000 * 10 ** 18;
+&nbsp;
+    /**
+     * 3% annual burn rate.
+     */
+    uint256 public constant ANNUAL_BURN_RATE = 3;
+&nbsp;
+    uint256 public lastBurnTimestamp;
+    uint256 public timeOfContractCreation;
+&nbsp;
+    address public immutable community;
+    address public immutable charity;
+    address public immutable foundation;
+    address public immutable development;
+    address public immutable marketing;
+    address public immutable investors;
+    address public immutable legal;
+    address public immutable expansion;
+&nbsp;
+    uint256 public immutable halfCommunityInitialTokens;
+&nbsp;
+    constructor(
+        address _community,
+        address _charity,
+        address _foundation,
+        address _development,
+        address _marketing,
+        address _investors,
+        address _legal,
+        address _expansion
+    ) ERC20("MARSHA+", "MSA") {
+        require(
+            _community != address(0) &amp;&amp;
+                _charity != address(0) &amp;&amp;
+                _foundation != address(0) &amp;&amp;
+                _development != address(0) &amp;&amp;
+                _marketing != address(0) &amp;&amp;
+                _investors != address(0) &amp;&amp;
+                _legal != address(0) &amp;&amp;
+                _expansion != address(0),
+            "Invalid address"
+        );
+&nbsp;
+        community = _community;
+        charity = _charity;
+        foundation = _foundation;
+        development = _development;
+        marketing = _marketing;
+        investors = _investors;
+        legal = _legal;
+        expansion = _expansion;
+&nbsp;
+        lastBurnTimestamp = block.timestamp;
+        timeOfContractCreation = block.timestamp;
+&nbsp;
+        // Mint 8billions tokens tokens are free.
+        _mint(address(this), INITIAL_SUPPLY);
+&nbsp;
+        // Community 35% all tokens are free.
+        _transfer(address(this), community, ((INITIAL_SUPPLY * 35) / 100));
+        halfCommunityInitialTokens = balanceOf(community) / 2;
+&nbsp;
+        // Charity: 25% (20% locked, 5% free).
+        _transfer(address(this), charity, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+        // Foundation: 10% (5% locked, 5% free).
+        _transfer(address(this), foundation, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+        // Development: 10% (5% free, 5% locked).
+        _transfer(address(this), development, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+        // Marketing: 8% (5% free, 3% locked).
+        _transfer(address(this), marketing, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+        // Investors: 5% (free).
+        _transfer(address(this), investors, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+        // Legal: 5% (2.5% free, 2.5% locked).
+        _transfer(address(this), legal, ((INITIAL_SUPPLY * 25) / 1000));
+&nbsp;
+        // Expansion: 2% (1% free, 1% locked).
+        _transfer(address(this), expansion, ((INITIAL_SUPPLY * 1) / 100));
+    }
+&nbsp;
+    /**
+     * @notice Reward tokens for departments after 1095 days of lounch contract.
+     */
+    function teamRewardAfter3Years() external {
+        if (block.timestamp &gt;= timeOfContractCreation + 1095 days) {
+            _transfer(address(this), charity, ((INITIAL_SUPPLY * 20) / 100));
+&nbsp;
+            _transfer(address(this), foundation, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+            _transfer(address(this), development, ((INITIAL_SUPPLY * 5) / 100));
+&nbsp;
+            _transfer(address(this), marketing, ((INITIAL_SUPPLY * 3) / 100));
+&nbsp;
+            _transfer(address(this), legal, ((INITIAL_SUPPLY * 25) / 1000));
+&nbsp;
+            _transfer(address(this), expansion, ((INITIAL_SUPPLY * 1) / 100));
+        }
+    }
+&nbsp;
+    /**
+     * @notice Burn a percentage of total supply annually if needed. Stop burning if burned more than half of cummunity initial balamce
+     */
+    function burnIfNeeded() external {
+        if (
+            block.timestamp &gt;= lastBurnTimestamp + 365 days &amp;&amp;
+            balanceOf(community) &gt; halfCommunityInitialTokens
+        ) {
+            uint256 totalSupplyBeforeBurn = totalSupply();
+            uint256 tokensToBurn = (totalSupplyBeforeBurn * ANNUAL_BURN_RATE) /
+                100;
+            _burn(community, tokensToBurn);
+            lastBurnTimestamp = block.timestamp;
+        }
+    }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Thu Nov 16 2023 13:03:16 GMT+0100 (Central European Standard Time)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>
