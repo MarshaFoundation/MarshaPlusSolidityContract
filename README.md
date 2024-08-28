@@ -8,6 +8,8 @@ Introducing the **Marsha+ Foundation**: a revolutionary initiative designed to e
 
 Our mission is based on the conviction that education, inclusion, and empowerment are essential pillars for building a fairer society. In a world constantly advancing towards digitalization, Marsha+ provides the necessary tools for everyone to actively participate and thrive in the new global economy.
 
+The **Marsha+ Token (MSA)** smart contract is an ERC20 token designed to facilitate governance and resource distribution within the Marsha+ community. This contract is based on OpenZeppelin and is configured with an initial supply of 8 billion tokens with an annual burn mechanism.
+
 ## Token Details
 
 - **Contract Address**: 0x5d1b60A013aBe0ac5F4AF3dABEA08B62081aB978
@@ -87,5 +89,21 @@ The **Marsha+ (MSA) Token Smart Contract** has undergone a comprehensive securit
 ### Audit Report
 
 For a detailed review, you can access the full audit report [here](https://audits.hacken.io/marsha-foundation/).
+
+## Join Us on Social Media
+
+Stay connected with us and be part of the Marsha+ community by following us on our official social media channels:
+
+- **Website**: [Marsha Foundation](https://www.marshafoundation.org)
+- **Instagram**: [@marshafoundation](https://www.instagram.com/marshafoundation/)
+- **Telegram**: [Join our Community](https://t.me/marshacommunity)
+- **LinkedIn**: [Marsha Foundation](https://www.linkedin.com/company/marshafoundation/?viewAsMember=true)
+- **Whitepaper**: [Marsha+ Whitepaper](https://marshafoundation.gitbook.io/marsha+-wp)
+- **BSC Scanner**: [Token on BSC Scan](https://bscscan.com/token/0x5d1b60a013abe0ac5f4af3dabea08b62081ab978)
+
+For any inquiries, you can reach us via email: [info@marshafoundation.org](mailto:info@marshafoundation.org)
+
+Follow us for the latest updates, announcements, and community activities!
+
 
 
