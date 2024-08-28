@@ -10,10 +10,12 @@ Our mission is based on the conviction that education, inclusion, and empowermen
 
 ## Token Details
 
+- **Contract Address**: 0x5d1b60A013aBe0ac5F4AF3dABEA08B62081aB978
 - **Token Name**: Marsha+
 - **Token Symbol**: MSA
 - **Initial Supply**: 8,000,000,000
 - **Annual Burn Rate**: 3%
+- **Contract Creation Date**: (May-30-2024 04:09:06 PM UTC)
 
 ## Initial Token Distribution
 
