@@ -72,3 +72,18 @@ This contract ensures controlled token allocation and annual reductions to maint
 
 For more information, please refer to our whitepaper: [Marsha+ Whitepaper](https://marshafoundation.gitbook.io/marsha+-wp)
 
+## Security Audit
+
+The **Marsha+ (MSA) Token Smart Contract** has undergone a comprehensive security audit conducted by [Hacken](https://hacken.io/), a leading blockchain security firm renowned for its rigorous analysis and expertise. We are proud to report an exceptional security score of **10/10**.
+
+### Key Findings
+
+- **No Critical Vulnerabilities**: The audit confirmed that there are no critical vulnerabilities present in our smart contract.
+- **Optimization Suggestions**: While the contract was found to be robust, minor optimizations were suggested to enhance performance.
+- **Security Improvements**: Identified improvements have been addressed to ensure the highest security standards.
+
+### Audit Report
+
+For a detailed review, you can access the full audit report [here](https://audits.hacken.io/marsha-foundation/).
+
+
