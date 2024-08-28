@@ -28,9 +28,6 @@ We have designed a transparent and equitable distribution system for Marsha+ (MS
 ![5](https://github.com/user-attachments/assets/f548d08a-6d14-43b1-90be-f840ad027d0c)
 ![6](https://github.com/user-attachments/assets/f3cafa64-d0cd-4617-b2c4-49d4c450c57e)
 ![7](https://github.com/user-attachments/assets/72863cb8-8ae8-474b-990a-3dcc4c120405)
-![8](https://github.com/user-attachments/assets/f0ebab17-3df8-4934-98c5-c14907fc36b8)
-![10](https://github.com/user-attachments/assets/59fa0548-3ad0-478b-8056-e21246194f32)
-
 
 Tokens are distributed to various departments and sections as follows:
 
