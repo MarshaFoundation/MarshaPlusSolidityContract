@@ -19,7 +19,18 @@ The **Marsha+ Token (MSA)** smart contract is an ERC20 token designed to facilit
 - **Annual Burn Rate**: 3%
 - **Contract Creation Date**: (May-30-2024 04:09:06 PM UTC)
 
-## Initial Token Distribution
+
+## Token Distribution
+
+We have designed a transparent and equitable distribution system for Marsha+ (MSA) tokens, which allocates resources to various departments and initiatives. Below is a visual representation of the token distribution:
+
+![4](https://github.com/user-attachments/assets/59fdf2e4-c94f-4300-a8a4-d642b555db38)
+![5](https://github.com/user-attachments/assets/f548d08a-6d14-43b1-90be-f840ad027d0c)
+![6](https://github.com/user-attachments/assets/f3cafa64-d0cd-4617-b2c4-49d4c450c57e)
+![7](https://github.com/user-attachments/assets/72863cb8-8ae8-474b-990a-3dcc4c120405)
+![8](https://github.com/user-attachments/assets/f0ebab17-3df8-4934-98c5-c14907fc36b8)
+![10](https://github.com/user-attachments/assets/59fa0548-3ad0-478b-8056-e21246194f32)
+
 
 Tokens are distributed to various departments and sections as follows:
 
